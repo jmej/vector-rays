@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  
+  //todo: add color and hand tracking
   translate(width/2, height/2);
   let v = p5.Vector.random2D();
   v = v.mult(random(50, 200))
